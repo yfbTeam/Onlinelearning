@@ -1,0 +1,9 @@
+E:\Z\Z\Sinptech_Study_System\SSSModel\bin\Release\SSSModel.dll
+E:\Z\Z\Sinptech_Study_System\SSSModel\bin\Release\SSSModel.pdb
+E:\Z\Z\Sinptech_Study_System\SSSModel\obj\Release\SSSModel.dll
+E:\Z\Z\Sinptech_Study_System\SSSModel\obj\Release\SSSModel.pdb
+C:\学习平台\圣邦天麒\test\Sinptech_Study_System\SSSModel\bin\Release\SSSModel.dll
+C:\学习平台\圣邦天麒\test\Sinptech_Study_System\SSSModel\bin\Release\SSSModel.pdb
+C:\学习平台\圣邦天麒\test\Sinptech_Study_System\SSSModel\obj\Release\SSSModel.csprojResolveAssemblyReference.cache
+C:\学习平台\圣邦天麒\test\Sinptech_Study_System\SSSModel\obj\Release\SSSModel.dll
+C:\学习平台\圣邦天麒\test\Sinptech_Study_System\SSSModel\obj\Release\SSSModel.pdb

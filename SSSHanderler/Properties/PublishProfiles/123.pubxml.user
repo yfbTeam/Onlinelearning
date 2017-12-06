@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\hzhander</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/ICSharpCode.SharpZipLib.dll">
+      <publishTime>12/01/2016 15:16:29</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>12/01/2016 15:16:29</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>12/01/2016 15:16:29</publishTime>
+    </File>
+    <File Include="bin/NPOI.dll">
+      <publishTime>12/01/2016 15:16:29</publishTime>
+    </File>
+    <File Include="bin/SSSBLL.dll">
+      <publishTime>05/04/2017 08:49:57</publishTime>
+    </File>
+    <File Include="bin/SSSDAL.dll">
+      <publishTime>05/04/2017 08:49:56</publishTime>
+    </File>
+    <File Include="bin/SSSHanderler.dll">
+      <publishTime>05/04/2017 08:49:58</publishTime>
+    </File>
+    <File Include="bin/SSSIBLL.dll">
+      <publishTime>05/04/2017 08:49:53</publishTime>
+    </File>
+    <File Include="bin/SSSIDAL.dll">
+      <publishTime>05/04/2017 08:49:53</publishTime>
+    </File>
+    <File Include="bin/SSSModel.dll">
+      <publishTime>05/04/2017 08:49:51</publishTime>
+    </File>
+    <File Include="bin/SSSUtility.dll">
+      <publishTime>05/04/2017 08:49:52</publishTime>
+    </File>
+    <File Include="CanteenReservation/BaseSit.ashx">
+      <publishTime>04/01/2017 14:22:08</publishTime>
+    </File>
+    <File Include="CanteenReservation/Order_DishHander.ashx">
+      <publishTime>03/31/2017 11:25:09</publishTime>
+    </File>
+    <File Include="CanteenReservation/Order_DishMenuHander.ashx">
+      <publishTime>03/31/2017 15:07:05</publishTime>
+    </File>
+    <File Include="CanteenReservation/UserOrder.ashx">
+      <publishTime>04/05/2017 09:33:17</publishTime>
+    </File>
+    <File Include="Certificate/Certificate.ashx">
+      <publishTime>12/21/2016 16:47:58</publishTime>
+    </File>
+    <File Include="CourseManage/CourceManage.ashx">
+      <publishTime>12/16/2016 14:19:05</publishTime>
+    </File>
+    <File Include="CourseManage/Course_Catagory.ashx">
+      <publishTime>03/07/2017 14:11:50</publishTime>
+    </File>
+    <File Include="CourseManage/CouseResource.ashx">
+      <publishTime>12/16/2016 14:19:05</publishTime>
+    </File>
+    <File Include="CourseManage/TopicHandel.ashx">
+      <publishTime>12/16/2016 14:19:05</publishTime>
+    </File>
+    <File Include="ExamManage/AnaliseHander.ashx">
+      <publishTime>02/28/2017 10:43:53</publishTime>
+    </File>
+    <File Include="ExamManage/ExamHandler.ashx">
+      <publishTime>02/14/2017 11:04:56</publishTime>
+    </File>
+    <File Include="ExamManage/ExamNationHander.ashx">
+      <publishTime>02/16/2017 11:31:18</publishTime>
+    </File>
+    <File Include="ExamManage/PaperHandler.ashx">
+      <publishTime>02/15/2017 09:01:42</publishTime>
+    </File>
+    <File Include="ExamManage/QuestionHander.ashx">
+      <publishTime>02/14/2017 11:21:35</publishTime>
+    </File>
+    <File Include="FeedBack/Enterprise.ashx">
+      <publishTime>03/28/2017 19:55:44</publishTime>
+    </File>
+    <File Include="FeedBack/FeedBack.ashx">
+      <publishTime>03/29/2017 14:36:02</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>12/16/2016 14:19:03</publishTime>
+    </File>
+    <File Include="InitialDataHandler.ashx">
+      <publishTime>12/16/2016 14:19:03</publishTime>
+    </File>
+    <File Include="OnlineLearning/CommonHandler.ashx">
+      <publishTime>12/16/2016 14:19:07</publishTime>
+    </File>
+    <File Include="OnlineLearning/MyLessonsHandler.ashx">
+      <publishTime>12/16/2016 14:19:07</publishTime>
+    </File>
+    <File Include="OnlineLearning/TaskHandler.ashx">
+      <publishTime>12/16/2016 14:19:07</publishTime>
+    </File>
+    <File Include="OnlineLearning/TopicHandler.ashx">
+      <publishTime>12/16/2016 14:19:07</publishTime>
+    </File>
+    <File Include="OnlineLearning/WorkHandler.ashx">
+      <publishTime>12/16/2016 14:19:07</publishTime>
+    </File>
+    <File Include="Recruit/RecruitHandler.ashx">
+      <publishTime>04/06/2017 15:33:24</publishTime>
+    </File>
+    <File Include="ResourceManage/MyResourceHander.ashx">
+      <publishTime>12/16/2016 14:19:08</publishTime>
+    </File>
+    <File Include="ResourceManage/PublicResoure.ashx">
+      <publishTime>12/16/2016 14:19:08</publishTime>
+    </File>
+    <File Include="ResourceManage/ResourceHander.ashx">
+      <publishTime>12/16/2016 14:19:08</publishTime>
+    </File>
+    <File Include="ResourceManage/ResourceInfoHander.ashx">
+      <publishTime>03/14/2017 19:37:08</publishTime>
+    </File>
+    <File Include="ResourceManage/SkySet.ashx">
+      <publishTime>03/11/2017 15:33:27</publishTime>
+    </File>
+    <File Include="ResourceReservations/AssetManagementHandler.ashx">
+      <publishTime>03/10/2017 20:45:24</publishTime>
+    </File>
+    <File Include="ResourceReservations/ResourceReservationClaHandler.ashx">
+      <publishTime>03/10/2017 20:45:24</publishTime>
+    </File>
+    <File Include="ResourceReservations/ResourceReservationHandler.ashx">
+      <publishTime>03/10/2017 20:45:24</publishTime>
+    </File>
+    <File Include="ResourceReservations/ResourceReservationInfoHandler.ashx">
+      <publishTime>03/10/2017 20:45:24</publishTime>
+    </File>
+    <File Include="ResourceReservations/ResourceTimeMappingIdHandler.ashx">
+      <publishTime>03/10/2017 20:45:24</publishTime>
+    </File>
+    <File Include="ResourceReservations/TimeIntervalHandler.ashx">
+      <publishTime>03/10/2017 20:45:25</publishTime>
+    </File>
+    <File Include="ResourceReservations/TimeManagementHandler.ashx">
+      <publishTime>03/10/2017 20:45:25</publishTime>
+    </File>
+    <File Include="ResourceReservations/ViewData.ashx">
+      <publishTime>03/10/2017 20:45:25</publishTime>
+    </File>
+    <File Include="SubjectHandler.ashx">
+      <publishTime>12/16/2016 14:19:03</publishTime>
+    </File>
+    <File Include="SystemSettings/MenuHandler.ashx">
+      <publishTime>12/16/2016 14:19:08</publishTime>
+    </File>
+    <File Include="SystemSettings/ModelHander.ashx">
+      <publishTime>03/08/2017 09:58:00</publishTime>
+    </File>
+    <File Include="SystemSettings/NoticeManage.ashx">
+      <publishTime>03/13/2017 14:22:11</publishTime>
+    </File>
+    <File Include="SystemSettings/RoleHandler.ashx">
+      <publishTime>12/16/2016 14:19:08</publishTime>
+    </File>
+    <File Include="SystemSettings/UserImport.ashx">
+      <publishTime>12/16/2016 14:19:08</publishTime>
+    </File>
+    <File Include="TextbookCatalogHandler.ashx">
+      <publishTime>12/16/2016 14:19:03</publishTime>
+    </File>
+    <File Include="TextbookHandler.ashx">
+      <publishTime>12/16/2016 14:19:03</publishTime>
+    </File>
+    <File Include="TextbookVersionHandler.ashx">
+      <publishTime>12/16/2016 14:19:03</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/25/2017 16:38:09</publishTime>
+    </File>
+    <File Include="WebForm1.aspx">
+      <publishTime>12/16/2016 14:19:03</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B4829404-E224-4449-AD79-C133AA386702}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SSSHanderler</RootNamespace>
+    <AssemblyName>SSSHanderler</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SSSUtility\dll\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CourseManage\CourceManage.ashx" />
+    <Content Include="CourseManage\CouseResource.ashx" />
+    <Content Include="CourseManage\TopicHandel.ashx" />
+    <Content Include="OnlineLearning\CommonHandler.ashx" />
+    <Content Include="OnlineLearning\MyLessonsHandler.ashx" />
+    <Content Include="OnlineLearning\TaskHandler.ashx" />
+    <Content Include="OnlineLearning\TopicHandler.ashx" />
+    <Content Include="OnlineLearning\WorkHandler.ashx" />
+    <Content Include="SystemSettings\RoleHandler.ashx" />
+    <Content Include="SystemSettings\UserImport.ashx" />
+    <Content Include="InitialDataHandler.ashx" />
+    <Content Include="Certificate\Certificate.ashx" />
+    <Content Include="ExamManage\QuestionHander.ashx" />
+    <Content Include="ExamManage\PaperHandler.ashx" />
+    <Content Include="ExamManage\ExamNationHander.ashx" />
+    <Content Include="ExamManage\AnaliseHander.ashx" />
+    <Content Include="CourseManage\Course_Catagory.ashx" />
+    <Content Include="FeedBack\Enterprise.ashx" />
+    <Content Include="FeedBack\FeedBack.ashx" />
+    <Content Include="CanteenReservation\Order_DishHander.ashx" />
+    <Content Include="CanteenReservation\Order_DishMenuHander.ashx" />
+    <Content Include="CanteenReservation\BaseSit.ashx" />
+    <Content Include="CanteenReservation\UserOrder.ashx" />
+    <None Include="Properties\PublishProfiles\123.pubxml" />
+    <Content Include="ResourceManage\PublicResoure.ashx" />
+    <Content Include="SubjectHandler.ashx" />
+    <Content Include="TextbookCatalogHandler.ashx" />
+    <Content Include="TextbookHandler.ashx" />
+    <Content Include="TextbookVersionHandler.ashx" />
+    <Content Include="ResourceManage\MyResourceHander.ashx" />
+    <Content Include="ResourceManage\ResourceHander.ashx" />
+    <Content Include="SystemSettings\ModelHander.ashx" />
+    <Content Include="ResourceReservations\AssetManagementHandler.ashx" />
+    <Content Include="ResourceReservations\ResourceReservationClaHandler.ashx" />
+    <Content Include="ResourceReservations\ResourceReservationHandler.ashx" />
+    <Content Include="ResourceReservations\ResourceReservationInfoHandler.ashx" />
+    <Content Include="ResourceReservations\ResourceTimeMappingIdHandler.ashx" />
+    <Content Include="ResourceReservations\TimeIntervalHandler.ashx" />
+    <Content Include="ResourceReservations\TimeManagementHandler.ashx" />
+    <Content Include="ResourceReservations\ViewData.ashx" />
+    <Content Include="ResourceManage\SkySet.ashx" />
+    <Content Include="SystemSettings\NoticeManage.ashx" />
+    <Content Include="ResourceManage\ResourceInfoHander.ashx" />
+    <Content Include="SystemSettings\MenuHandler.ashx" />
+    <Content Include="Recruit\RecruitHandler.ashx" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Global.asax" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="WebForm1.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CanteenReservation\BaseSit.ashx.cs">
+      <DependentUpon>BaseSit.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="CanteenReservation\Order_DishHander.ashx.cs">
+      <DependentUpon>Order_DishHander.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="CanteenReservation\Order_DishMenuHander.ashx.cs">
+      <DependentUpon>Order_DishMenuHander.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="CanteenReservation\UserOrder.ashx.cs">
+      <DependentUpon>UserOrder.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Certificate\Certificate.ashx.cs">
+      <DependentUpon>Certificate.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="CourseManage\CourceManage.ashx.cs">
+      <DependentUpon>CourceManage.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="CourseManage\Course_Catagory.ashx.cs">
+      <DependentUpon>Course_Catagory.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="CourseManage\CouseResource.ashx.cs">
+      <DependentUpon>CouseResource.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="CourseManage\TopicHandel.ashx.cs">
+      <DependentUpon>TopicHandel.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ExamManage\AnaliseHander.ashx.cs">
+      <DependentUpon>AnaliseHander.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ExamManage\ExamNationHander.ashx.cs">
+      <DependentUpon>ExamNationHander.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ExamManage\PaperHandler.ashx.cs">
+      <DependentUpon>PaperHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ExamManage\QuestionHander.ashx.cs">
+      <DependentUpon>QuestionHander.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="FeedBack\Enterprise.ashx.cs">
+      <DependentUpon>Enterprise.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="FeedBack\FeedBack.ashx.cs">
+      <DependentUpon>FeedBack.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="InitialDataHandler.ashx.cs">
+      <DependentUpon>InitialDataHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="OnlineLearning\CommonHandler.ashx.cs">
+      <DependentUpon>CommonHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="OnlineLearning\MyLessonsHandler.ashx.cs">
+      <DependentUpon>MyLessonsHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="OnlineLearning\TaskHandler.ashx.cs">
+      <DependentUpon>TaskHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="OnlineLearning\TopicHandler.ashx.cs">
+      <DependentUpon>TopicHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="OnlineLearning\WorkHandler.ashx.cs">
+      <DependentUpon>WorkHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recruit\RecruitHandler.ashx.cs">
+      <DependentUpon>RecruitHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ResourceManage\MyResourceHander.ashx.cs">
+      <DependentUpon>MyResourceHander.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ResourceManage\PublicResoure.ashx.cs">
+      <DependentUpon>PublicResoure.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ResourceManage\ResourceHander.ashx.cs">
+      <DependentUpon>ResourceHander.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ResourceManage\ResourceInfoHander.ashx.cs">
+      <DependentUpon>ResourceInfoHander.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ResourceManage\SkySet.ashx.cs">
+      <DependentUpon>SkySet.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ResourceReservations\AssetManagementHandler.ashx.cs">
+      <DependentUpon>AssetManagementHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ResourceReservations\ResourceReservationClaHandler.ashx.cs">
+      <DependentUpon>ResourceReservationClaHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ResourceReservations\ResourceReservationHandler.ashx.cs">
+      <DependentUpon>ResourceReservationHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ResourceReservations\ResourceReservationInfoHandler.ashx.cs">
+      <DependentUpon>ResourceReservationInfoHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ResourceReservations\ResourceTimeMappingIdHandler.ashx.cs">
+      <DependentUpon>ResourceTimeMappingIdHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ResourceReservations\TimeIntervalHandler.ashx.cs">
+      <DependentUpon>TimeIntervalHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ResourceReservations\TimeManagementHandler.ashx.cs">
+      <DependentUpon>TimeManagementHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ResourceReservations\ViewData.ashx.cs">
+      <DependentUpon>ViewData.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="SubjectHandler.ashx.cs">
+      <DependentUpon>SubjectHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemSettings\MenuHandler.ashx.cs">
+      <DependentUpon>MenuHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemSettings\ModelHander.ashx.cs">
+      <DependentUpon>ModelHander.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemSettings\NoticeManage.ashx.cs">
+      <DependentUpon>NoticeManage.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemSettings\RoleHandler.ashx.cs">
+      <DependentUpon>RoleHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemSettings\UserImport.ashx.cs">
+      <DependentUpon>UserImport.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="TextbookCatalogHandler.ashx.cs">
+      <DependentUpon>TextbookCatalogHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="TextbookHandler.ashx.cs">
+      <DependentUpon>TextbookHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="TextbookVersionHandler.ashx.cs">
+      <DependentUpon>TextbookVersionHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SSSBLL\SSSBLL.csproj">
+      <Project>{43e7473c-fb9e-4042-9a4c-bb4fb87bacbb}</Project>
+      <Name>SSSBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SSSDAL\SSSDAL.csproj">
+      <Project>{7904d900-985c-43a0-94d6-8f7d8cd3c0ad}</Project>
+      <Name>SSSDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SSSIBLL\SSSIBLL.csproj">
+      <Project>{b089977a-6bd4-41b2-adc5-8a2cf82fecc8}</Project>
+      <Name>SSSIBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SSSIDAL\SSSIDAL.csproj">
+      <Project>{7cfddb72-1276-4db3-9cfc-b3fc40dbd887}</Project>
+      <Name>SSSIDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SSSModel\SSSModel.csproj">
+      <Project>{e33c6ee1-32f6-489c-aac6-2a3d543fc206}</Project>
+      <Name>SSSModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SSSUtility\SSSUtility.csproj">
+      <Project>{6d32788a-1ab8-4daa-bd70-726eccd57640}</Project>
+      <Name>SSSUtility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>43260</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:43260/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

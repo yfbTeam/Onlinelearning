@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSSWeb", "SSSWeb\SSSWeb.csproj", "{3D3DF4BD-03D8-42BB-A142-69C49AACF0D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSSUtility", "SSSUtility\SSSUtility.csproj", "{6D32788A-1AB8-4DAA-BD70-726ECCD57640}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSSModel", "SSSModel\SSSModel.csproj", "{E33C6EE1-32F6-489C-AAC6-2A3D543FC206}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSSDAL", "SSSDAL\SSSDAL.csproj", "{7904D900-985C-43A0-94D6-8F7D8CD3C0AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSSIBLL", "SSSIBLL\SSSIBLL.csproj", "{B089977A-6BD4-41B2-ADC5-8A2CF82FECC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSSBLL", "SSSBLL\SSSBLL.csproj", "{43E7473C-FB9E-4042-9A4C-BB4FB87BACBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSSIDAL", "SSSIDAL\SSSIDAL.csproj", "{7CFDDB72-1276-4DB3-9CFC-B3FC40DBD887}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSSHanderler", "SSSHanderler\SSSHanderler.csproj", "{B4829404-E224-4449-AD79-C133AA386702}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.1.211:8080/tfs/%E6%A0%A1%E7%AB%8B%E6%96%B9
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SSSModel\\SSSModel.csproj
+		SccProjectName1 = SSSModel
+		SccLocalPath1 = SSSModel
+		SccProjectUniqueName2 = SSSUtility\\SSSUtility.csproj
+		SccProjectName2 = SSSUtility
+		SccLocalPath2 = SSSUtility
+		SccProjectUniqueName3 = SSSIDAL\\SSSIDAL.csproj
+		SccProjectName3 = SSSIDAL
+		SccLocalPath3 = SSSIDAL
+		SccProjectUniqueName4 = SSSDAL\\SSSDAL.csproj
+		SccProjectName4 = SSSDAL
+		SccLocalPath4 = SSSDAL
+		SccProjectUniqueName5 = SSSIBLL\\SSSIBLL.csproj
+		SccProjectName5 = SSSIBLL
+		SccLocalPath5 = SSSIBLL
+		SccProjectUniqueName6 = SSSBLL\\SSSBLL.csproj
+		SccProjectName6 = SSSBLL
+		SccLocalPath6 = SSSBLL
+		SccProjectUniqueName7 = SSSWeb\\SSSWeb.csproj
+		SccProjectName7 = SSSWeb
+		SccLocalPath7 = SSSWeb
+		SccProjectUniqueName8 = SSSHanderler\\SSSHanderler.csproj
+		SccProjectName8 = SSSHanderler
+		SccLocalPath8 = SSSHanderler
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D3DF4BD-03D8-42BB-A142-69C49AACF0D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D3DF4BD-03D8-42BB-A142-69C49AACF0D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D3DF4BD-03D8-42BB-A142-69C49AACF0D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D3DF4BD-03D8-42BB-A142-69C49AACF0D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D32788A-1AB8-4DAA-BD70-726ECCD57640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D32788A-1AB8-4DAA-BD70-726ECCD57640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D32788A-1AB8-4DAA-BD70-726ECCD57640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D32788A-1AB8-4DAA-BD70-726ECCD57640}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E33C6EE1-32F6-489C-AAC6-2A3D543FC206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E33C6EE1-32F6-489C-AAC6-2A3D543FC206}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E33C6EE1-32F6-489C-AAC6-2A3D543FC206}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E33C6EE1-32F6-489C-AAC6-2A3D543FC206}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7904D900-985C-43A0-94D6-8F7D8CD3C0AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7904D900-985C-43A0-94D6-8F7D8CD3C0AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7904D900-985C-43A0-94D6-8F7D8CD3C0AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7904D900-985C-43A0-94D6-8F7D8CD3C0AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B089977A-6BD4-41B2-ADC5-8A2CF82FECC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B089977A-6BD4-41B2-ADC5-8A2CF82FECC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B089977A-6BD4-41B2-ADC5-8A2CF82FECC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B089977A-6BD4-41B2-ADC5-8A2CF82FECC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43E7473C-FB9E-4042-9A4C-BB4FB87BACBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43E7473C-FB9E-4042-9A4C-BB4FB87BACBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43E7473C-FB9E-4042-9A4C-BB4FB87BACBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43E7473C-FB9E-4042-9A4C-BB4FB87BACBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CFDDB72-1276-4DB3-9CFC-B3FC40DBD887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CFDDB72-1276-4DB3-9CFC-B3FC40DBD887}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CFDDB72-1276-4DB3-9CFC-B3FC40DBD887}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CFDDB72-1276-4DB3-9CFC-B3FC40DBD887}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4829404-E224-4449-AD79-C133AA386702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4829404-E224-4449-AD79-C133AA386702}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4829404-E224-4449-AD79-C133AA386702}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4829404-E224-4449-AD79-C133AA386702}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

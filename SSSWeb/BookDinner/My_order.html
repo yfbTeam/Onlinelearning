@@ -1,0 +1,213 @@
+﻿<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>我的订单</title>
+     <link href="../css/reset.css" rel="stylesheet" />
+     <link href="../css/onlinetest.css" rel="stylesheet" />
+     <link type="text/css" rel="stylesheet" href="../ZZSX/css/style.css" />
+     <link type="text/css" rel="stylesheet" href="../ZZSX/css/iconfont.css" />
+     <script src="../Scripts/jquery-1.11.2.min.js"></script>
+     <script src="../Scripts/layer/layer.js"></script>
+     <script src="../Scripts/Common.js"></script>
+     <script type="text/javascript" src="../ZZSX/js/tz_slider.js"></script>
+     <script src="../Scripts/jquery.tmpl.js"></script>
+     <script src="../Scripts/PageBar.js"></script>
+ </head>
+ <body style="background:#fafafa;">
+ <!--订餐-->
+      <div class="Confirmation_order">
+	     <!--页面名称-->
+	     <h1 class="Page_name">我的订单</h1>
+		 <!--整个展示区域-->
+		 <div class="Whole_display_area">
+			 <!--操作区域-->
+			 <div class="Operation_area">			    
+				   <div class="left_choice fl">
+						<ul>							
+							<li class="times">
+							   <span class="times_input"><input type="text" placeholder="" class="time" name="time"/><i class="iconfont"></i></span>-					
+							   <span class="times_input"><input type="text" placeholder="" class="time" name="time"/><i class="iconfont"></i></span>
+							   <input class="b_query" type="button" value="查询" />							
+							</li>
+						</ul>
+				   </div>
+				 <div class="right_add fr">	
+				 
+				  </div>
+			 </div>
+			 <div class="clear"></div>
+			 <!--展示区域-->
+			 <div class="Display_form">		
+					<div class="my_order">
+						<h1>统计：<span class="o_num">订单<i>10</i></span><span class="o_menu">菜品<i>20</i></span><span class="o_count">总计<i>600</i></span></h1>
+			<!--点击下拉-->
+						<div id="slide">						
+							<!--菜单区域-->
+							<ul>
+								<li>
+									<a class="order_click" href="#">
+									<i>+</i>
+									<span class="Td_con"><span class="T_data">2015-06-27</span>｜<span class="T_num">6 份菜品</span>  ｜<span class="T_total"> 总计 ￥64.0</span></span>
+									</a>
+									<div class="order_con">
+										<div class="Food_order">
+												<h2 class="food_tit"> <span class="F_name">早餐</span><span><i>21</i>份菜品</span>｜<span>总计<i>￥506.0</i></span> </h2>
+				<div class="clear"></div>								
+												<table class="O_form">
+														<tr class="O_trth"><!--表头tr名称-->
+															<th class="Dishes">菜品</th>
+															<th class="Type">类型</th>
+															<th class="Price">单价</th>
+															<th class="Number">数量</th>
+															<th class="Subtotal">小计</th>
+															<th class="Operation">操作</th>							
+														</tr>													
+														<tr class="Single">
+															<td class="Dishes">酸辣土豆丝<i class="iconfont ladu"></i></td>
+															<td class="Type">素菜</td>
+															<td class="Price">￥5</td>	
+															<td class="Number">
+															<span class="d_jiajian">
+															<a class="d_jia" href="#">-</a>
+															<em><input type="text" value="1"></em>
+															<a class="d_jian" href="#">+</a>
+															</span>
+															</td>	
+															<td class="Subtotal">5</td>	
+															<td class="Operation"><a href="#"><i class="iconfont">&#x3474;</i></a></td>									
+														</tr>
+														<tr class="Double">
+															<td class="Dishes">酸辣土豆丝<i class="iconfont ladu"></i></td>
+															<td class="Type">素菜</td>
+															<td class="Price">￥5</td>	
+															<td class="Number">
+															<span class="d_jiajian">
+															<a class="d_jia" href="#">-</a>
+															<em><input type="text" value="1"></em>
+															<a class="d_jian" href="#">+</a>
+															</span>
+															</td>	
+															<td class="Subtotal">5</td>	
+															<td class="Operation"><a href="#"><i class="iconfont">&#x3474;</i></a></td>							
+														</tr>
+														</table>
+								</div>
+									</div>
+								</li>
+								<li>
+									<a class="order_click" href="#">
+									<i>-</i>
+									<span class="Td_con"><span class="T_data">2015-06-27</span>｜<span class="T_num">6 份菜品</span>  ｜<span class="T_total"> 总计 ￥64.0</span></span>
+									</a>
+									<div class="order_con" style="display:none;">
+										<div class="Food_order">
+												<h2 class="food_tit"> <span class="F_name">早餐</span><span><i>21</i>份菜品</span>｜<span>总计<i>￥506.0</i></span> </h2>
+				<div class="clear"></div>								
+												<table class="O_form">
+														<tr class="O_trth"><!--表头tr名称-->
+															<th class="Dishes">菜品</th>
+															<th class="Type">类型</th>
+															<th class="Price">单价</th>
+															<th class="Number">数量</th>
+															<th class="Subtotal">小计</th>
+															<th class="Operation">操作</th>							
+														</tr>													
+														<tr class="Single">
+															<td class="Dishes">酸辣土豆丝<i class="iconfont ladu"></i></td>
+															<td class="Type">素菜</td>
+															<td class="Price">￥5</td>	
+															<td class="Number">
+															<span class="d_jiajian">
+															<a class="d_jia" href="#">-</a>
+															<em><input type="text" value="1"></em>
+															<a class="d_jian" href="#">+</a>
+															</span>
+															</td>	
+															<td class="Subtotal">5</td>	
+															<td class="Operation"><a href="#"><i class="iconfont">&#x3474;</i></a></td>									
+														</tr>
+														<tr class="Double">
+															<td class="Dishes">酸辣土豆丝<i class="iconfont ladu"></i></td>
+															<td class="Type">素菜</td>
+															<td class="Price">￥5</td>	
+															<td class="Number">
+															<span class="d_jiajian">
+															<a class="d_jia" href="#">-</a>
+															<em><input type="text" value="1"></em>
+															<a class="d_jian" href="#">+</a>
+															</span>
+															</td>	
+															<td class="Subtotal">5</td>	
+															<td class="Operation"><a href="#"><i class="iconfont">&#x3474;</i></a></td>							
+														</tr>
+														</table>
+										</div>
+									
+									</div>
+								</li>
+								<li>
+									<a class="order_click" href="#">									
+									<i>-</i>
+									<span class="Td_con"><span class="T_data">2015-06-27</span>｜<span class="T_num">6 份菜品</span>  ｜<span class="T_total"> 总计 ￥64.0</span></span>
+									</a>
+									<div class="order_con" style="display:none;">
+										<div class="Food_order">
+												<h2 class="food_tit"> <span class="F_name">早餐</span><span><i>21</i>份菜品</span>｜<span>总计<i>￥506.0</i></span> </h2>
+				<div class="clear"></div>								
+												<table class="O_form">
+														<tr class="O_trth"><!--表头tr名称-->
+															<th class="Dishes">菜品</th>
+															<th class="Type">类型</th>
+															<th class="Price">单价</th>
+															<th class="Number">数量</th>
+															<th class="Subtotal">小计</th>
+															<th class="Operation">操作</th>							
+														</tr>													
+														<tr class="Single">
+															<td class="Dishes">酸辣土豆丝<i class="iconfont ladu"></i></td>
+															<td class="Type">素菜</td>
+															<td class="Price">￥5</td>	
+															<td class="Number">
+															<span class="d_jiajian">
+															<a class="d_jia" href="#">-</a>
+															<em><input type="text" value="1"></em>
+															<a class="d_jian" href="#">+</a>
+															</span>
+															</td>	
+															<td class="Subtotal">5</td>	
+															<td class="Operation"><a href="#"><i class="iconfont">&#x3474;</i></a></td>									
+														</tr>
+														<tr class="Double">
+															<td class="Dishes">酸辣土豆丝<i class="iconfont ladu"></i></td>
+															<td class="Type">素菜</td>
+															<td class="Price">￥5</td>	
+															<td class="Number">
+															<span class="d_jiajian">
+															<a class="d_jia" href="#">-</a>
+															<em><input type="text" value="1"></em>
+															<a class="d_jian" href="#">+</a>
+															</span>
+															</td>	
+															<td class="Subtotal">5</td>	
+															<td class="Operation"><a href="#"><i class="iconfont">&#x3474;</i></a></td>							
+														</tr>
+														</table>
+								</div>
+									
+									</div>
+								</li>
+							</ul>						
+						<!--end 菜单区域-->	
+						</div>
+					</div>
+			 </div>
+		 </div> 
+    </div>
+   
+ </body>
+</html>
